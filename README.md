@@ -1,17 +1,15 @@
 # laravelMixTailindcss
 
-# Tailwind CSS Playground
-
-A simple starter project for playing around with Tailwind in a proper PostCSS environment.
+A simple starter project for playing around with Tailwind and alpinejs in a proper PostCSS environment.
 
 To get started:
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/sohel1999/laravelMixTailindcss.git
+    git clone https://github.com/sohel1999/laravelMixTailindcss.git  yourDreameProject
 
-    cd tailwindStartup
+    cd yourDreameProject
     ```
 
 2. Install the dependencies:
@@ -28,15 +26,12 @@ To get started:
 
     ```bash
     # Using npm
-    npm run serve
+    npm run dev
 
     # Using Yarn
-    yarn run serve
+    yarn run dev
     ```
 
-    Now you should be able to see the project running at localhost:8080.
-
-4. Open `public/index.html` in your editor and start experimenting!
 
 ## Building for production
 
@@ -51,6 +46,4 @@ npm run production
 # Using Yarn
 yarn run production
 ```
-
-After that's done, check out `./public/build/tailwind.css` to see the optimized output.
 
